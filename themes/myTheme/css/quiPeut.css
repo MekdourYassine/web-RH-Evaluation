@@ -1,0 +1,20 @@
+.pag-all{
+    position: relative;
+    margin: 10px 15%;
+    background-color: #fff;
+    padding: 15px;
+}
+.pag-all h3 {
+    color: #e74c3c;
+}
+.headerimg {
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+.pag-all p {
+    font-size: 1.3em;
+}
+.pag-all h1{
+    padding-left: 180px;
+    
+}

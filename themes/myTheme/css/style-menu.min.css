@@ -1,0 +1,24 @@
+#fdw nav select{display:none}
+#fdw nav ul{display:block;z-index:999999;background-color:#FA4242;border-radius:15px;margin:15px}
+#fdw nav ul li{display:inline-block;margin-left:0;margin-right:10px;position:relative;border-right:1px solid #FFF;padding:10px 25px}
+#fdw nav ul li a:link,#fdw nav ul li a:visited{color:#FFF;font:normal 20px 'Yanone Kaffeesatz', sans-serif;display:inline-block;position:relative;text-decoration:none}
+#fdw nav ul li a:hover,#fdw nav ul li a:active{color:#F3F3F3;text-decoration:none}
+#fdw nav ul li span{position:absolute;right:-12px;bottom:6px;width:7px;height:8px;float:right;display:block;background:url(images/nav_arrow.png) no-repeat left -8px;font:0/0 a;margin:0 0 0 3px}
+#fdw nav ul li.current{border-bottom:2px solid #e25d29}
+#fdw nav ul li.current a{color:#3F3F3F;cursor:default}
+#fdw nav ul li.current a span{background:url(../images/nav_arrow.png) no-repeat left 0}
+#fdw nav ul li.current ul li a{cursor:pointer}
+#fdw nav ul li ul.sub_menu{position:absolute;top:40px;left:0;background:#fff;border:1px solid #ececec;border-top:5px solid #e25d29;display:none;z-index:999999;-moz-box-shadow:0 6px 7px #121012;-webkit-box-shadow:0 6px 7px #121012;box-shadow:0 6px 7px #121012;border-radius:8px;margin:0;padding:0}
+#fdw nav ul li ul.sub_menu li.arrow_top{position:absolute;top:-12px;left:12px;width:13px;height:8px;display:block;border:none;background:url(images/arrow_top.png) no-repeat left top}
+#fdw nav ul li ul.sub_menu li{float:none;border-bottom:1px solid #ececec;margin:0;padding:0}
+#fdw nav ul li ul.sub_menu li a{white-space:nowrap;width:150px;font:14px Arial, tahoma, sans-serif;font-weight:700;text-transform:capitalize;color:#FFF;background-color:#ff3232;padding:12px}
+#fdw nav ul li ul.sub_menu li:hover{background:#f9f9f9;color:#333}
+#fdw nav ul li ul.sub_menu li a.subCurrent{color:#e25d29;cursor:default}
+#fdw nav ul li ul.sub_menu li a:hover{background:#e87d7d;color:#000}
+@media only screen and min-width 768px and max-width 959px {
+#fdw nav ul li{margin-left:12px}
+}
+@media only screen and max-width 767px {
+#fdw nav ul{display:none}
+#fdw nav select{width:100%;display:block;margin-bottom:30px;cursor:pointer;background:#f9f9f9;border:1px solid #e3e3e3;color:#777;padding:6px}
+}
